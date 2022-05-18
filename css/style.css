@@ -208,6 +208,16 @@ body {
   overflow-x: hidden;
 }
 
+/* .video-container{
+  margin-top: 120px;
+  margin-left: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  height: 250px;
+} */
+
 .video {
   min-height: 250px;
   height: auto;
@@ -245,4 +255,20 @@ body {
   font-size: 14px;
   margin: 2px 0;
   color: #979797;
+}
+
+.videoItem {
+  width: 84%;
+  min-height: 85vh;
+  position: absolute;
+  background-color: white;
+  left: 16%;
+  border: 2px solid #000;
+  opacity: 1;
+}
+
+.hide {
+  opacity: 0;
+  position: absolute;
+  z-index: -555;
 }
